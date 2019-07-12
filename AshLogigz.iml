@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="AshLogigz">
+    <configurations>
+      <configuration name="AshLogigz" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/bin">
+        <dependencies target-player="24.0">
+          <entries>
+            <entry library-name="as3commons-logging-2.7" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Starling_2.5.1" library-level="application">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="Ash_src_a" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIR SDK 32" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Main-app.xml" package-file-name="Logigz">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets" path-in-package="." />
+          </files-to-package>
+        </packaging-android>
+        <packaging-ios package-file-name="Main" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assets" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIR SDK 32" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="libs" level="project" />
+    <orderEntry type="library" exported="" name="Starling source" level="application" />
+    <orderEntry type="library" exported="" name="Starling" level="project" />
+    <orderEntry type="library" exported="" name="starling" level="application" />
+    <orderEntry type="library" exported="" name="as3commons-logging-2.7" level="project" />
+    <orderEntry type="library" exported="" name="Starling_2.5.1" level="application" />
+    <orderEntry type="library" exported="" name="Ash" level="project" />
+    <orderEntry type="library" exported="" name="Ash_src_a" level="project" />
+  </component>
+</module>
