@@ -15,3 +15,5 @@ other:
 > `lib/Ash.swc` is new Ash library. Don't use it yet, need migration.
 
 > Assets in `assets/`
+
+[Gameplay](https://drive.google.com/file/d/1J8LRpovRBonDh7quAX7qVQ813DFh5cwx/view?usp=sharing).
