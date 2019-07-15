@@ -70,7 +70,7 @@ package com.chrm.logigz.systems
 			this.container = this.game.borderContainer;
 			this.rootContainer = this.game.rootContainer;
 			
-			ctrlBut = GUIFactory.createSimpleBut();
+			ctrlBut = GUIFactory.createSimpleBut(160, 50, 'Order');
 			ctrlBut.x = AppDefaults.VIRTUAL_WIDTH - ctrlBut.width;
 			ctrlBut.y = AppDefaults.VIRTUAL_HEIGHT - GUIFactory.CTRL_INDENT - ctrlBut.height;
 			this.rootContainer.addChild(ctrlBut);
@@ -148,7 +148,7 @@ package com.chrm.logigz.systems
 					f.A = 30;// ?
 					f.V = 0;
 //					f.T = f.V * f.T - f.A * f.T * f.T / 2;
-					f.T = 1;
+					f.T = 0.33;
 					
 					f.state = (f.state == FlightCmp.ST_INIT_IN) ? FlightCmp.ST_FLIGHT_IN : FlightCmp.ST_FLIGHT_OUT;
 				}

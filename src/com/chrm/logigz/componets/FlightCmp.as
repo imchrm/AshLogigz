@@ -32,8 +32,8 @@ package com.chrm.logigz.componets
 		// recycled data
 
 		public var tc : Number = 0;// значение текущего времени от начала перемещения
-		public var oscX : Number = 0;// значение пути предыдущей итерации, чтобы узнать текущее преращение между текущим путем
-		public var oscY : Number = 0;// значение пути предыдущей итерации, чтобы узнать текущее преращение между текущим путем
+		public var oscX : Number = 0;// значение пути предыдущей итерации, чтобы узнать текущее приращение между текущим путем
+		public var oscY : Number = 0;// значение пути предыдущей итерации, чтобы узнать текущее приращение между текущим путем
 		
 		public var sX : Number;// space X
 		public var sY : Number;// space Y

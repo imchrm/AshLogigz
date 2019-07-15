@@ -57,7 +57,7 @@ package com.chrm.logigz.systems
 			this.config = this.game.config;
 			this.creator = this.game.creator;
 			this.container = this.game.borderContainer;
-			
+			this.container.y = GameConfig.BORDER_TOP;
 			nodes = game.getNodeList(DisplayNode);
 			
 			createLevel();

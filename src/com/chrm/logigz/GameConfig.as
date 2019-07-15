@@ -10,6 +10,8 @@ package com.chrm.logigz
 	
 	public class GameConfig
 	{
+		public static const BORDER_TOP:int = 40;
+		
 		public var rowsNum : int = 4;
 		public var columnsNum : int = 4;
 		public var tileSize : int = 80;

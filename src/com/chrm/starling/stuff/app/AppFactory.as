@@ -61,7 +61,7 @@ package com.chrm.starling.stuff.app
 			starling.enableErrorChecking = true;
 			starling.skipUnchangedFrames = true;
 
-			starling.showStatsAt('right', 'bottom', 1);
+			starling.showStatsAt('right', 'top', 1);
 
 			starling.nativeOverlay.mouseChildren = starling.nativeOverlay.mouseEnabled = false;
 
@@ -104,7 +104,7 @@ package com.chrm.starling.stuff.app
 					stuff.push(appDir.resolvePath(StringUtil.format(assetEnqueue[i], scaleFactor)));
 				}
 				assetManager = new AssetManager(1);
-				assetManager.verbose = false;
+				assetManager.verbose = true;
 				assetManager.enqueue.apply(assetManager, stuff);
 //				assetManager.loadQueue(assetManager_progress);
 				assetManager.loadQueue(onComplete, onError, _progressRatioCallback);

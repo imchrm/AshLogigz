@@ -2,6 +2,7 @@
 
 .idea/
 bin/
+out/
 stuff/assets/graph/
 
 # Files

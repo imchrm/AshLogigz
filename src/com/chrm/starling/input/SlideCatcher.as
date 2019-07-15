@@ -3,7 +3,9 @@
  */
 package com.chrm.starling.input
 {
-	import flash.geom.Point;
+import com.chrm.logigz.GameConfig;
+
+import flash.geom.Point;
 
 	import org.as3commons.logging.api.ILogger;
 	import org.as3commons.logging.api.getLogger;
@@ -44,7 +46,7 @@ package com.chrm.starling.input
 			
 			if (touch && touch.phase != TouchPhase.HOVER)
 			{
-				controlPoint = new Point( touch.globalX, touch.globalY ); 
+				controlPoint = new Point( touch.globalX, touch.globalY - GameConfig.BORDER_TOP );
 //				log.debug("--{0}", [touch.phase]);
 				if (touch.phase == TouchPhase.BEGAN)
 				{

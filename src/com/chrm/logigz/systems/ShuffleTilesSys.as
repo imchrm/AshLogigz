@@ -66,7 +66,7 @@ package com.chrm.logigz.systems
 			this.container = this.game.borderContainer;
 			this.rootContainer = this.game.rootContainer;
 			
-			shuffleBut = GUIFactory.createSimpleBut();
+			shuffleBut = GUIFactory.createSimpleBut(160, 50, 'Shuffle');
 			shuffleBut.x = 0;
 			shuffleBut.y = AppDefaults.VIRTUAL_HEIGHT - GUIFactory.CTRL_INDENT - shuffleBut.height;
 			this.rootContainer.addChild(shuffleBut);
@@ -122,7 +122,7 @@ package com.chrm.logigz.systems
 				{
 					var sp:int;
 					
-					sp = getRndIntN((axisCurrent == 1)? config.rowsNum >> 1 : config.columnsNum >> 1);
+					sp = getRndIntN((axisCurrent == 1)? config.rowsNum >> 1 : config.columnsNum >> 1)*(Math.random()*6 + 1);
 					
 					
 					initTrainAutoShift(trainNode, getRndSign(), config.tileSize * sp, 1);
@@ -142,8 +142,6 @@ package com.chrm.logigz.systems
 		{
 			var saxis:String = (axis == 0 ) ? "vertical" : "horizontal";
 //			log.debug("axis {0} num:{1}", [saxis, num]);
-
-//			TODO:  _ Д И М А_, Б Л Я Т Ь,  Н Е  П Р О С Р И  С В О Ю  Ж И З Н Ь !
 			
 			var trainCmp : TrainCmp = new TrainCmp();
 			

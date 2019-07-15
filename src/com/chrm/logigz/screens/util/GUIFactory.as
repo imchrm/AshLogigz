@@ -21,6 +21,11 @@ package com.chrm.logigz.screens.util
 			var tu:Texture = createButTexture(true);
 //			var td:Texture = createButTexture(false);
 			var b:Button = new Button(tu, label);
+			if(label != "")
+			{
+				b.textFormat.color = 0xffffff;
+				b.textFormat.size = 16;
+			}
 			
 			return b;
 		}
