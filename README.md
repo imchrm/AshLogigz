@@ -1,10 +1,11 @@
 ## Logigz
-__Logiz__ is prototype of puzzles shifting game that used ECS (*Entity Component System*) programming paradigm.
+__Logiz__ is prototype of mobile puzzles shifting game that based on AIR SDK (Adobe) & used ECS (*Entity Component System*) programming paradigm.
 ECS was realized by [Ash](https://github.com/richardlord/Ash) (*ECS*) library.
 
 Dependencies:
 
-[Starling 2.5.1](https://github.com/Gamua/Starling-Framework/releases/download/v2.5.1/starling-2.5.1.zip)
+- [AIR SDK](https://www.adobe.com/devnet/air/air-sdk-download.html)
+- [Starling 2.5.1](https://github.com/Gamua/Starling-Framework/releases/download/v2.5.1/starling-2.5.1.zip)
 
 other:
 
