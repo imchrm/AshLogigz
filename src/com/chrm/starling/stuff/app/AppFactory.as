@@ -58,7 +58,7 @@ package com.chrm.starling.stuff.app
 			starling.stage.stageHeight   = virtualSize.height; // <- same size on all devices!
 
 //			starling.enableErrorChecking = Capabilities.isDebugger;
-			starling.enableErrorChecking = true;
+//			starling.enableErrorChecking = true;
 			starling.skipUnchangedFrames = true;
 
 			starling.showStatsAt('right', 'top', 1);
