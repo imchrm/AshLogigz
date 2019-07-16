@@ -17,4 +17,4 @@ other:
 
 > Assets in `assets/`
 
-[Gameplay](https://drive.google.com/file/d/1J8LRpovRBonDh7quAX7qVQ813DFh5cwx/view?usp=sharing).
+[Video Gameplay](https://drive.google.com/file/d/1J8LRpovRBonDh7quAX7qVQ813DFh5cwx/view?usp=sharing).
